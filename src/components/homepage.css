@@ -1,0 +1,101 @@
+body {
+  background: rgb(58, 3, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 3, 116, 1) 5%,
+    rgba(49, 33, 156, 1) 61%,
+    rgba(31, 246, 253, 0.993) 100%
+  );
+}
+link {
+  text-decoration: none;
+}
+.home_container {
+  /* border: 2px solid black; */
+  width: 80%;
+  margin: auto;
+}
+.home_header {
+  border: 3px solid rgba(255, 255, 255, 0.295);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.home_header h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comic Neue";
+  font-weight: bolder;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 6px rgb(0, 0, 0);
+  text-align: center;
+}
+.animal_options {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: center;
+  background: rgba(187, 187, 187, 0.281);
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+.animal_options .single_opt {
+  display: flex;
+  width: 20%;
+  min-width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 20px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.animal_options .single_opt .opt_img {
+  width: 100%;
+  max-height: 180px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  min-width: 200px;
+  cursor: pointer;
+}
+.animal_options .single_opt:hover {
+  box-shadow: 10px 10px 25px rgb(0, 0, 0);
+}
+.animal_options .single_opt h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+h4 {
+  text-align: center;
+  color: white;
+}
+.contact_footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: 2px solid black; */
+}
+.contact_footer .single_contact {
+  text-align: center;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  width: 20%;
+  min-width: 250px;
+}
+.contact_footer .single_contact img {
+  width: 20%;
+  margin-right: 10px;
+  /* box-shadow: 2px 2px 5px white; */
+  /* border-radius: 10px; */
+  filter: drop-shadow(5px 5px 15px black);
+}

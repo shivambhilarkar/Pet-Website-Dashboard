@@ -1,0 +1,33 @@
+.dog_card {
+  width: 20%;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  min-width: 200px;
+  background: rgba(141, 141, 141, 0.74);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.712);
+  margin: 20px 5px;
+  /* margin-right: 10px; */
+}
+.dog_card:hover {
+  box-sizing: 5px 5px 15 rgb(255, 255, 255);
+  cursor: pointer;
+}
+.dog_card_info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.dog_pic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.dog_card_info h3 {
+  margin: 0px;
+  padding: 0px;
+  /* text-align: left; */
+  font-family: "Comic Neue";
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10px;
+}

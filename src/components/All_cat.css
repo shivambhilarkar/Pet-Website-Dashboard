@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto auto;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+.all_dog_heading {
+  text-align: center;
+  font-family: "Comic Neue";
+  font-size: 50px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
